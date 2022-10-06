@@ -5,7 +5,9 @@ class Solver
       return 1 unless num.positive?
       num * factorial(num - 1)
     end
-    def reverse(word); end
+    def reverse(word)
+      word.reverse
+    end
     def fizzbuzz(num); end
   end
 end
