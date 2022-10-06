@@ -1,3 +1,4 @@
+require_relative 'spec_helper'
 describe Solver do
   describe '#factorial' do
     it 'return 0 if parameter is 1' do
