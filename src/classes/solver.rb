@@ -1,7 +1,7 @@
 class Solver
   class << self
     def factorial(num)
-      raise 'Number is negative' if num.negative?
+      raise ArgumentError, 'Number is Negative' if num.negative?
       return 1 unless num.positive?
 
       num * factorial(num - 1)
