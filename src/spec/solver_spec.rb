@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 describe Solver do
   describe '#factorial' do
-    it 'return 0 if parameter is 1' do
+    it 'return 1 if parameter is 0' do
       Solver.factorial(0).should eql 1
     end
   end
