@@ -1,56 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Ruby Project - Test Driven Development
 
-> Description the project.
-
+> In this project, We implement a Solver class that contains 3 methods (factorial, reverse and fizzbuzz)
+> using TDD  approach.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Rspec
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+Create a repo then clone it and open into your favorite Coding Editor
+(For example: Visual Studio in case you don't have one :smile:)
 
 ### Setup
 
-### Install
+#### 1. Clone this repository or download the Zip folder:"
 
-### Usage
+```bash command
+$ git clone https://github.com/gak92/Test_Driven_Development.git
+```
+#### 2. Navigate to the location of the folder in your machine:
+```bash command
+you@your-Pc-name:~$ cd <folder>
+```
+#### 3. Press Enter to navigate to your local clone.
+#### 4. From the terminal run the test with the following command to check if all the tests cases are working
 
-### Run tests
-
-### Deployment
-
-
+```bash command
+ rspec spec src/spec
+```
 
 ## Authors
 
-👤 **Author1**
+👤 **Ghazanfar Ali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gak92](https://github.com/gak92)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghazanfar-ali-9a4998a/)
 
-👤 **Author2**
+👤 **Ushindi Bienvenu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@bienvenuushindi](https://github.com/bienvenuushindi)
+- LinkedIn: [LinkedIn](http://www.linkedin.com/in/usbbush)
 
 ## 🤝 Contributing
 
@@ -62,14 +55,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
