@@ -1,26 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ruby Project - School Library
+# Ruby Project - Test Driven Development
 
-> In this porject, I worked with Object Oriented to build School Library System.
+> In this project, We implement a Solver class that contains 3 methods (factorial, reverse and fizzbuzz)
+> using TDD  approach.
 
 ## Built With
 
 - Ruby
+- Rspec
 
 ## Getting Started
 
-Create a repo then clone it and open into Visual Studio Code
+Create a repo then clone it and open into your favorite Coding Editor
+(For example: Visual Studio in case you don't have one :smile:)
 
 ### Setup
 
-- Download and install Visual Studio, Ruby
-- Command line / Git bash
+#### 1. Clone this repository or download the Zip folder:"
 
-### Install
+```bash command
+$ git clone https://github.com/gak92/Test_Driven_Development.git
+```
+#### 2. Navigate to the location of the folder in your machine:
+```bash command
+you@your-Pc-name:~$ cd <folder>
+```
+#### 3. Press Enter to navigate to your local clone.
+#### 4. From the terminal run the test with the following command to check if all the tests cases are working
 
-- Visual Studio Code
-- Ruby
+```bash command
+ rspec spec src/spec
+```
 
 ## Authors
 
